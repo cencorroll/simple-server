@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET'])
 def get_home():
-    return "Hello, wor" # changed to make test fail
+    return "Hello, world!" # changed to make test fail then changed back again
 
 if __name__ == '__main__':
     app.run(
